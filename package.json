@@ -1,0 +1,13 @@
+{
+  "name": "dsh-plugin-market",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Format-1 plugin market index for DeepSeek Harness, maintained by czbczb.",
+  "scripts": {
+    "validate": "node tools/validate.mjs"
+  },
+  "devDependencies": {
+    "@deepseek-ai/dsh-plugin-market-index": "0.2.1-rc.5"
+  }
+}

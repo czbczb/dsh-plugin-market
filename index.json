@@ -1,0 +1,48 @@
+{
+  "format": 1,
+  "title": {
+    "en": "czbczb's DSH Plugins",
+    "zh": "czbczb 的 DSH 插件市场"
+  },
+  "description": {
+    "en": "Community plugin index for DeepSeek Harness maintained by czbczb.",
+    "zh": "czbczb 维护的 DeepSeek Harness 社区插件索引。"
+  },
+  "metadata": {
+    "categories": {
+      "channels": {
+        "title": { "en": "Channels", "zh": "频道接入" }
+      }
+    }
+  },
+  "plugins": [
+    {
+      "name": "dsh-wechat",
+      "title": { "en": "WeChat", "zh": "WeChat · 微信接入" },
+      "description": {
+        "en": "Use the Harness through WeChat's official ClawBot channel (iLink Bot API): scan-to-bind, route 1:1 messages to agent sessions, and send replies back.",
+        "zh": "通过微信官方 ClawBot 通道（iLink Bot API）使用 Harness：扫码绑定后把微信消息路由到 agent 会话并回复。"
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0Ij4KICA8cmVjdCB4PSIyIiB5PSIyIiB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHJ4PSIxNCIgZmlsbD0iIzA3YzE2MCIvPgogIDxnIGZpbGw9IiNmZmYiPgogICAgPGVsbGlwc2UgY3g9IjI2IiBjeT0iMjciIHJ4PSIxNiIgcnk9IjEyIi8+CiAgICA8Y2lyY2xlIGN4PSIyMCIgY3k9IjI0IiByPSIyLjIiIGZpbGw9IiMwN2MxNjAiLz4KICAgIDxjaXJjbGUgY3g9IjMyIiBjeT0iMjQiIHI9IjIuMiIgZmlsbD0iIzA3YzE2MCIvPgogICAgPHBhdGggZD0iTTE0IDM0bDQgNiA0LTV6Ii8+CiAgICA8ZWxsaXBzZSBjeD0iNDIiIGN5PSIzOCIgcng9IjEzIiByeT0iMTAiLz4KICAgIDxjaXJjbGUgY3g9IjM3IiBjeT0iMzYiIHI9IjEuOCIgZmlsbD0iIzA3YzE2MCIvPgogICAgPGNpcmNsZSBjeD0iNDciIGN5PSIzNiIgcj0iMS44IiBmaWxsPSIjMDdjMTYwIi8+CiAgICA8cGF0aCBkPSJNNTAgNDVsLTMgNS00LTR6Ii8+CiAgPC9nPgo8L3N2Zz4K",
+      "author": "czbczb",
+      "homepage": "https://github.com/czbczb/dsh-wechat-plugin#readme",
+      "repository": { "url": "https://github.com/czbczb/dsh-wechat-plugin" },
+      "metadata": {
+        "category": "channels",
+        "keywords": ["wechat", "微信", "clawbot", "ilink", "channel", "im"]
+      },
+      "versions": [
+        {
+          "version": "1.0.0",
+          "publishTimestamp": 1794195428,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/czbczb/dsh-wechat-plugin",
+            "commit": "1d02eedcedaf401e3c8076830c8b8fa635ee6a9b"
+          },
+          "engines": { "dsh": ">=0.2.1-0 <0.3.0" }
+        }
+      ]
+    }
+  ]
+}
